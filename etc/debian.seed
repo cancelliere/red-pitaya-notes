@@ -1,6 +1,6 @@
 d-i debian-installer/locale string en_US
 
-d-i keyboard-configuration/xkb-keymap select us
+d-i keyboard-configuration/xkb-keymap select us(dvorak)
 
 d-i netcfg/choose_interface select auto
 
@@ -9,7 +9,7 @@ d-i netcfg/get_domain string unassigned-domain
 
 d-i netcfg/wireless_wep string
 
-d-i mirror/suite string jessie
+d-i mirror/suite string stretch
 d-i mirror/country string manual
 d-i mirror/http/hostname string ftp.heanet.ie
 d-i mirror/http/directory string /pub/debian
